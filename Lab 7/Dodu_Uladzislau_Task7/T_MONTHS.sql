@@ -1,0 +1,3 @@
+create table t_months as
+select time_id, calendar_month_number, days_in_cal_month, calendar_month_name
+from u_dw_ext_references.ext_time_table

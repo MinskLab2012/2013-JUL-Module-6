@@ -1,0 +1,3 @@
+create table t_quarters as 
+select time_id,days_in_cal_quarter, end_of_cal_quarter, calendar_quarter_number
+from u_dw_ext_references.ext_time_table
